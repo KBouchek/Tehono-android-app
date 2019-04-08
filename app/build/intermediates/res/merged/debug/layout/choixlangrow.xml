@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:background="#1e0a59"
+        android:padding="10dp"
+        android:layout_marginBottom="0dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:id="@+id/titi"
+            android:background="#1e0a59"
+            android:paddingTop="0dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:paddingBottom="0dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout android:id="@+id/bottom_control_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tah50"
+                    android:scaleType="fitCenter"
+                    android:id="@+id/drap"
+                    android:layout_centerInParent="false"
+                    android:layout_marginLeft="0dp"
+                    android:layout_gravity="left" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/n"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@id/bottom_control_bar"
+                >
+                <TextView
+                    android:id="@+id/version_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="wrap_content"
+
+                    android:textAlignment="center"
+                    android:typeface="normal"
+                    android:paddingLeft="10dp"
+                    android:textSize="14dp"
+
+                    android:textColor="@android:color/white"
+                    />
+            </LinearLayout>
+        <RelativeLayout android:id="@+id/nn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+
+            android:layout_toRightOf="@id/n"
+
+            >
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:padding="5dp"
+                android:button="@drawable/checkbox_selector"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+        </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

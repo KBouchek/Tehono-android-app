@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="k.tehono.org.tehono">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        tools:replace="allowBackup, label"
+        android:allowBackup="false"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:name="TeHono"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AllSettings"
+            android:label="@string/title_activity_all_settings"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="k.tehono.org.tehono.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SettingLangsOrder"
+            android:label="@string/title_activity_setting_langs_order"
+            android:parentActivityName=".AllSettings"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="k.tehono.org.tehono.AllSettings" />
+        </activity>
+        <activity
+            android:name=".SettingDelais"
+            android:label="@string/title_activity_setting_delais"
+            android:parentActivityName=".AllSettings"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="k.tehono.org.tehono.AllSettings" />
+        </activity>
+        <activity
+            android:name=".SettingsClavier"
+            android:label="Options du clavier"
+            android:parentActivityName=".AllSettings"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="k.tehono.org.tehono.AllSettings" />
+        </activity>
+        <activity
+            android:name=".Details"
+            android:label="Traductions"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="k.tehono.org.tehono.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Choixlangues"
+            android:label="@string/title_activity_choixlangues"
+            android:noHistory="true"
+            android:theme="@style/MyMaterialTheme"></activity>
+        <activity
+            android:name=".FormSend"
+            android:label="@string/title_activity_form_send"
+            android:parentActivityName=".Choixlangues"
+            android:windowSoftInputMode="adjustResize"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyMaterialTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="k.tehono.org.tehono.Choixlangues" />
+        </activity>
+    </application>
+
+</manifest>

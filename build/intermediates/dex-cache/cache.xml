@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\10.2.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="29e4e634375ab2ed25f8db5387b564c78980422a">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-10.2.4_4d1d052494118605ceba90c73ab8f4a670bd4913\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.0.0_4ec599b073bbca4560038ecfb0b10dc7db312b7d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.0.0_cd10ae9af97c164bd38500449417e749048bf50a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\10.2.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="43df709c95f6b0501b3adbc7da992b6a69a03214">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-10.2.4_a1f0dd076a36cf8d46297cb19eb0cedc85a9d9a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\10.2.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-10.2.4_7c734f7c9805b18fa8c8df5ed894cd8abc0ab2b0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.1_ab146e22e3456f3104d148c2842695512e55d060\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\libs\jackson-core-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5e1dc37c96308851c3ff609c250dc849c4b12022">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-core-2.8.3_5d7c2061318002f566e4bb7a5bc0bad3ac4073c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-v4-impl\10.2.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c76804333008c855433cad5cfd1256e86045e97b">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-v4-impl-10.2.4_393509ecc68bc3b6dcd9b5f2867a3038c8a367f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_416ad1b30b08edd46343b1c1c6b95dcf6d4d1bc7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\10.2.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="2ed7ba48801a0a361727833ade3b6cf096968cc0">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-10.2.4_cac046b3077977d337c8e6467175c772ac07471a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="80bbbad70e182666aa40ad8937046cdc6079e294">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ef167c4d4464ba9ddab461019faa9c8412c53259\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-22.2.1_ab2845d864f5f3bc09deb7f680e975a8cf1cc625\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\libs\jackson-annotations-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c4ed3d7e204b1870f3b72f09bbe68ba1f9a55f57">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-annotations-2.8.3_227097eeffe2499a9bce9698e6f187895ea42af2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\libs\jackson-databind-2.8.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="cea3788c72271d45676ce32c0665991674b24cc5">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\2\jackson-databind-2.8.3_b17cd96d611e4642410d98907edc616bd4357d52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\10.2.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-10.2.4_65d06afb781b56239320eb86da77dbd2bebf3791\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.0.0_08ec7ad7e06d30f7bb5b387ddf3d39d0af6a8e9f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\10.2.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="54933c89f90a872aa342004e82b23e776fe12736">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-10.2.4_60cddea7a9d39b48f2b88ad5289f1e3f72bcae43\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.jmedeisis\draglinearlayout\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="bb82a1e7434549862e449e76232dae9c3629f194">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jmedeisis-draglinearlayout-1.0.1_acbb5646b2897c6c900432edd2424421b7a1587e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\10.2.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-10.2.4_2cac9bed6ea97ee9faafc40fc61e6d5ea06ebfeb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="70f3d9307bdf8249d53f217b4a5a1380989c20ad">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_117bec53cb7ae63d93ab9d64c26a3d627c9b4989\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-22.2.1_d05e72e33b83fab9361d75883c732d85127a9f6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_0e92e2fe345aefacf039dcb9e611926aa2cc4bc0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.2.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="183e4fb7cf95f4fa54963cfcdaf0f4d7e2397bad">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-10.2.4_7cc116a15e79e7b4093b83f8f44aad958c369d3a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\10.2.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="143e5647b772c08c9f0d807b24bbc0b05ff6c7d2">
+        <dex dex="C:\Users\K\AndroidStudioProjects\TeHono\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-10.2.4_c1fc0f5000bc931f4275c8794d5ff604a7d66f8e\classes.dex" />
+    </item>
+
+</items>

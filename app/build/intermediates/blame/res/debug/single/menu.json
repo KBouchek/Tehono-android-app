@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\K\\AndroidStudioProjects\\TeHono\\app\\build\\intermediates\\res\\merged\\debug\\menu\\choixlangues.xml",
+        "source": "C:\\Users\\K\\AndroidStudioProjects\\TeHono\\app\\src\\main\\res\\menu\\choixlangues.xml"
+    },
+    {
+        "merged": "C:\\Users\\K\\AndroidStudioProjects\\TeHono\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\Users\\K\\AndroidStudioProjects\\TeHono\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\K\\AndroidStudioProjects\\TeHono\\app\\build\\intermediates\\res\\merged\\debug\\menu\\detailmenu.xml",
+        "source": "C:\\Users\\K\\AndroidStudioProjects\\TeHono\\app\\src\\main\\res\\menu\\detailmenu.xml"
+    },
+    {
+        "merged": "C:\\Users\\K\\AndroidStudioProjects\\TeHono\\app\\build\\intermediates\\res\\merged\\debug\\menu\\order_langs_menu.xml",
+        "source": "C:\\Users\\K\\AndroidStudioProjects\\TeHono\\app\\src\\main\\res\\menu\\order_langs_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\K\\AndroidStudioProjects\\TeHono\\app\\build\\intermediates\\res\\merged\\debug\\menu\\sendtrad.xml",
+        "source": "C:\\Users\\K\\AndroidStudioProjects\\TeHono\\app\\src\\main\\res\\menu\\sendtrad.xml"
+    }
+]

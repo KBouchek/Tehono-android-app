@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:background="#0f0138"
+    android:padding="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_height="wrap_content">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:id="@+id/titi"
+    android:background="#0f0138"
+    android:paddingTop="0dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingBottom="0dp"
+    android:layout_height="wrap_content">
+
+        <LinearLayout android:id="@+id/bottom_control_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tah50"
+            android:scaleType="fitCenter"
+            android:id="@+id/drap"
+            android:layout_centerInParent="false"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="left" />
+        </LinearLayout>
+
+        <LinearLayout android:id="@+id/n"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@id/drap"
+            >
+                <TextView
+                    android:id="@+id/version_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="wrap_content"
+
+                    android:textAlignment="center"
+                    android:typeface="normal"
+                    android:paddingLeft="10dp"
+                    android:textSize="23dp"
+
+                    android:textColor="@android:color/white"
+                     />
+        </LinearLayout>
+
+</LinearLayout>
+        <LinearLayout android:id="@+id/nc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titi"
+            >
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_alignParentRight="true"
+                    android:text="wrap_conss"
+                    android:typeface="normal"
+                    android:textSize="11dp"
+                    android:paddingLeft="20dp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+        </LinearLayout>
+</RelativeLayout>

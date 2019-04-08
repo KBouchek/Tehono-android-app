@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Te Hono</string>
+    <string name="action_settings">Réglages</string>
+    <string name="action_search">Rechercher</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_friends">Friends</string>
+    <string name="nav_item_notifications">Messages</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/title_lexique</item>
+        <item>@string/title_leprojet</item>
+        <item>@string/title_participer</item>
+        <item>@string/title_reglages</item>
+    </string-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+    <string name="title_activity_send_trad">Proposer une traduction</string>
+    <string name="title_activity_details">Details</string>
+
+    <string name="title_lexique">Lexique</string>
+    <string name="title_leprojet">Le projet</string>
+    <string name="title_participer">L\'application</string>
+    <string name="title_apropos">À propos</string>
+    <string name="title_reglages">Réglages</string>
+
+    <string name="err_userid">Wrong User Id</string>
+    <string name="err_name">Requried Human Name </string>
+    <string name="err_email">Wrong Email</string>
+    <string name="err_tel">In valid Telephone number</string>
+    <string name="err_zipcode">Wrong Zip code</string>
+    <string name="err_height">integer type</string>
+    <string name="err_year">not year</string>
+    <string name="err_ip">invalid Ip Address</string>
+    <string name="title_activity_modification">Envoyer une modification</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_setting_langs_order">Ordre des langues</string>
+    <string name="title_activity_setting_delais">Délais de recherches</string>
+    <string name="title_activity_all_settings">AllSettings</string>
+    <string name="title_activity_settings_clavier">SettingsClavier</string>
+    <string name="title_activity_choixlangues">Selection des langues</string>
+    <string name="title_activity_form_send">Proposer une traduction</string>
+
+
+    <string name="defaultDetail1"><![CDATA[
+     <html><body style="text-align:justify;background-color:transparent;color:white;padding:10px"><p style="text-align:justify"><span style="font-family:Comic Sans MS,cursive"><strong><span>Te Hono</span></strong><span> </span>est un lexique participatif (sur le principe du "wiki") des différentes langues Polynésiennes -&nbsp; Reo Tahiti,&nbsp; Pa’umotu, ‘Eo Enata et ‘Eo Enana,&nbsp; Tuha’a Pae,&nbsp; Reo Magareva,&nbsp; Rapa - et du Français.</span></p><p style="text-align:justify"><span style="font-family:Comic Sans MS,cursive"><strong><span> Te Hono</span></strong> a&nbsp; vocation à rassembler l\'ensemble des richesses&nbsp; de nos langues polynésiennes sans imposer une traduction ou une écriture unique. Ce lexique n\'a pas la prétention de venir concurrencer les écrits scientifiques et académiques déjà existants, mais de rendre <span>la pratique des langues polynésiennes</span> plus accessible à la population en utilisant l\'outil numérique.</span></p><p style="text-align:justify"><span style="font-family:Comic Sans MS,cursive"> Si une traduction vous paraît incomplète, inexacte, ou manquante,vous pouvez proposer une modification ou bien une nouvelle traduction.</span> <span style="font-family:Comic Sans MS,cursive">Afin de rester dans l\'esprit du "wiki"&nbsp; et pour éviter les dérives, chaque traduction fera l\'objet d\'une validation par un administrateur avant d\'être publiée.</span></p><p style="text-align:justify"><span style="font-family:Comic Sans MS,cursive"> Les langues polynésiennes ne pourront vivre que si elles sont transmises de génération en génération. <strong><span>Te Hono</span></strong>&nbsp; est un outil de transmission et de partage des langues, un outil pour créer le lien entre les personnes et les cultures&nbsp; afin que cette richesse linguistique qui est la nôtre ne disparaisse pas.</span></p><p style="text-align:justify">&nbsp;</p></body></html>
+      ]]></string>
+    <string name="defaultDetail2"><![CDATA[
+     <html><body style="text-align:justify;background-color:transparent;color:white;padding:10px"><p><u><strong>Comment se servir de l\'application ?</strong></u></p><p>Par défaut la langue de recherche est le Tahitien.<br>Pour faire une recherche dans un autre langue, cliquez sur le drapeau situé en haut à gauche, puis selectionnez la langue dans laquelle vous souhaitez faire votre recherche.</p><p>Une fois la langue selectionnée, tapez les premières lettre du mot recherché, puis laissez faire l\'application.</p><p>Par défaut, vous disposez de 2 secondes entre la fin du dernier caractère tapé, et le début de la recherche.<br>Ce temps peut être augmenté dans les réglages, mais ne peut être inférieur à 2 secondes de manière à ne pas surcharger le serveur situé sur internet.<br><br>L\'application vous montre alors des propositions de mots s\'il trouve des occurences correspondantes. Pour obtenir les traductions, selectionnez le mot dans la liste des propositions.</p><p>S\'il n\'y a pas de résultats, vous pourvez poursuivre votre recherche en modifiant les premières lettres, ou commencer une nouvelle recherche en selectonnant "Effacer".</p><p>À tout moment, vous pouvez annuler la dernière recherche en cours et recommencer une nouvelle recherche en cliquant sur la croix située en haut à droite.</p><p>À tout moment, vous pouvez cacher le clavier en touchant un espace vide (par exemple à gauche du selecteur de langue)</p><p><u><strong>Comment participer à l\'alaboration du lexique ?</strong></u></p><p>Vous ne trouvez pas un mot dans le lexique mais vous en connaissez une traduction ? Pour soumettre votre traduction et ainsi partager votre connaissance, commencez taper l\'orthographe exacte du mot dans la zone de recherche, quelques secondes après, le bouton traduire apparait, cliquez dessus, dans la page qui s\'affiche selectionnez la ou les langue(s) dans laquelle (lesquelles) vous souhaitez traduire ce mot et cliquez sur le bouton "Traduire", une nouvelle page apparait dans laquelle vous pouvez écrire votre (vos) traduction(s). Une fois que vous êtes satisfait des traductions saisies, cliquez sur le bouton en forme de nuage en haut à droite pour envoyer vos proposition.</p><p>Dans le cas ou vous souhaiteriez proposer une modification d\'un mot exitant, rendez-vous sur le page de ses traductions, puis cliquez sur l\'icone "crayon", qui vous guidera de la même manière dans l\'envoi de votre (vos) proposition(s) de modification.<br><br>&nbsp;</p></body></html>
+      ]]></string>
+</resources>

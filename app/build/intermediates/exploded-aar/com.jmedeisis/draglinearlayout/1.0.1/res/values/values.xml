@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DragLinearLayout"><attr format="dimension" name="scrollSensitiveHeight"/><attr format="reference" name="placeholderView"/></declare-styleable>
+    <!-- From: file:/D:/Dropbox/Android%20Studio%20Projects/DragLinearLayout/library/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="downwards_drop_shadow_height">16dp</dimen>
+</resources>

@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+
+        tools:context="k.tehono.org.tehono.MainActivity">
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:id="@+id/LinearLayout0">
+                <LinearLayout
+                    android:id="@+id/container_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        android:id="@+id/toolbar"
+                        layout="@layout/toolbar" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/container_body">
+
+                <LinearLayout
+                    android:id="@+id/LinearLayout2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_centerHorizontal="true"
+                    android:paddingBottom="0dp"
+                    android:orientation="vertical"
+                    android:layout_marginBottom="5dp" >
+                    <LinearLayout
+                        android:id="@+id/LinearLayoutx"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:layout_marginTop="0dp"
+                        android:padding="0dp"
+                        android:layout_marginRight="0dp"
+                        android:orientation="horizontal"
+                        android:layout_alignParentRight="true"
+                        android:clipToPadding="false">
+
+                        <TextView
+                            android:id="@+id/infos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="2dp"
+                            android:layout_marginRight="0dp"
+                            android:textSize="11dp"
+                            android:textColor="@color/textColorPrimary"
+
+                            android:text=""
+                            android:layout_gravity="right|bottom"
+                            android:gravity="right" />
+                        <Spinner
+                            android:id="@+id/spinner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#7F052469"
+                            android:layout_gravity="right"
+                            android:layout_marginRight="0dp"
+
+                            android:popupBackground="#7F052469"
+                            />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="2dp"
+                        android:orientation="horizontal">
+                        <ProgressBar
+                            android:id="@+id/progressBar1"
+                            style="?android:attr/progressBarStyleSmall"
+                            android:background ="@drawable/progress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/infos"
+                            android:layout_gravity="center|center_vertical"/>
+                        <EditText
+                            android:id="@+id/autoComplete"
+                            android:layout_width="fill_parent"
+                            android:layout_height="40dp"
+                            android:padding="5dp"
+                            android:layout_alignParentLeft="true"
+                            android:maxLines="1"
+                            android:layout_marginTop="0dp"
+                            android:inputType="textPhonetic"
+                            android:ems="18"
+                            android:textColor="#FFFFFF"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textCursorDrawable="@null"
+                            android:radius="10dip"
+                            android:textColorHint="#FFFFFF"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="40dp"
+                            android:background="@drawable/gradient"
+                            android:hint=""
+                            android:popupBackground="#ffffff"
+                            android:textAlignment="center"
+                            android:paddingBottom="2dp"
+                            >
+                        </EditText>
+
+
+                    </LinearLayout>
+                    <ProgressBar android:id="@+id/progressBar2"
+                        style="@android:style/Widget.Holo.Light.ProgressBar.Horizontal"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|top"
+                        android:layout_marginTop="-5dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="60dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/LinearLayout3"
+                        android:padding="0dp" />
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayout2"
+                        android:layout_width="match_parent"
+                        android:background="#0f0138"
+                        android:padding="0dp"
+                        android:layout_marginTop="-5dp"
+                        android:layout_below="@id/progressBar2"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginRight="50dp"
+                        android:paddingBottom="5dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Propositions"
+                            android:padding="2dp"
+                            android:textSize="14dp"
+                            android:layout_centerVertical="true"
+                            android:textColor="@android:color/white"
+                            />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/RelativeLayoutNoResults"
+                        android:layout_width="match_parent"
+                        android:background="#000f0138"
+                        android:padding="0dp"
+                        android:visibility="gone"
+                        android:layout_marginTop="-5dp"
+                        android:layout_below="@id/progressBar2"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginRight="40dp"
+                        android:paddingBottom="5dp"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Aucun résultat."
+                            android:padding="5dp"
+                            android:textSize="18dp"
+                            android:id="@+id/nores1"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/nores2"
+                            android:layout_below="@id/nores1"
+                            android:text=""
+                            android:padding="0dp"
+                            android:textSize="12dp"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@android:color/white"
+                            />
+                        <TextView
+                            android:id="@+id/nores3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vous en connaissez une traduction ?\n Participez à l'élaboration du lexique !"
+                            android:layout_below="@id/nores2"
+                            android:padding="0dp"
+                            android:textSize="12dp"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@android:color/white"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="10dp"
+                            android:layout_below="@id/nores3"
+                            android:layout_gravity="center_horizontal"
+                            android:gravity="center_horizontal"
+                            android:orientation="horizontal" >
+
+                            <Button
+                                android:id="@+id/angry_btn1"
+
+                                android:text="Traduire"
+                                android:textColor="#FFFFFF"
+
+
+                                android:layout_width="110dp"
+                                android:layout_height="35dp"
+                                android:layout_marginRight="10dp"
+                                android:background="@drawable/buttonshape"
+                                android:shadowColor="#100D66"
+                                android:shadowDx="0"
+                                android:shadowDy="0"
+                                android:shadowRadius="5"
+                                />
+                            <Button
+                                android:id="@+id/angry_btn2"
+                                android:text="Effacer"
+                                android:textColor="#FFFFFF"
+                                android:layout_width="110dp"
+                                android:layout_height="35dp"
+                                android:background="@drawable/buttonshape2"
+                                android:shadowColor="#100D66"
+                                android:shadowDx="0"
+                                android:shadowDy="0"
+                                android:shadowRadius="5"
+                                />
+
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/LinearLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="-15dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:orientation="vertical">
+
+                        <ListView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/listView"
+                            android:divider="#FF000000"
+                            android:layout_margin="0dp"
+                            android:layout_marginBottom="-5dp"
+                            android:padding="15dp"
+                            android:background="@android:color/transparent"
+                            android:dividerHeight="2.0px"
+                            android:cacheColorHint="#0000"
+                            android:scrollbarSize="10dp"
+                            android:textColor="#FFFFFF"
+                            android:layout_gravity="center_horizontal|top" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                </FrameLayout >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/container_body1"
+                    android:visibility="gone">
+                        <WebView
+                            android:id="@+id/text1"
+                            android:layout_width="match_parent"
+                            android:background="#AA052469"
+                            android:layout_margin="20dp"
+                            android:layout_height="match_parent"
+                            android:textSize="14dp"
+                            android:layout_gravity="left"
+
+                            />
+                </FrameLayout >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/container_body2"
+                    android:visibility="gone">
+                    <WebView
+                        android:id="@+id/text2"
+                        android:layout_width="match_parent"
+                        android:background="#AA052469"
+                        android:layout_margin="20dp"
+                        android:layout_height="match_parent"
+                        android:textSize="14dp"
+                        android:layout_gravity="left"
+
+                         />
+                </FrameLayout >
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutPub"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/app_ad_layout_height"
+                android:layout_gravity="bottom"
+                android:windowSoftInputMode="adjustPan|adjustResize"
+                android:background="#FFFFFF"
+                android:layout_alignParentBottom="true"
+                android:visibility="gone"
+                >
+
+                <ViewFlipper
+                    android:id="@+id/ViewFlipper01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" >
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/sos" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_name">
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:adjustViewBounds="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/sos_000" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textColor="@color/colorAccent"
+                            android:paddingLeft="10dp"
+                            android:id="@+id/adtextView"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Votre publicité Ici ...">
+                        </TextView>
+                    </LinearLayout>
+
+                </ViewFlipper>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LinearLayoutPub2"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/app_ad_layout_height"
+                android:layout_gravity="bottom"
+                android:windowSoftInputMode="adjustPan|adjustResize"
+                android:background="#000000"
+                android:layout_alignParentBottom="true"
+                android:visibility="visible"
+
+                >
+                <WebView
+                    android:id="@+id/webview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#000000"
+                    />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <fragment
+            android:id="@+id/fragment_navigation_drawer"
+            android:name="k.tehono.org.tehono.FragmentDrawer"
+            android:layout_width="@dimen/nav_drawer_width"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:layout="@layout/fragment_navigation_drawer"
+            tools:layout="@layout/fragment_navigation_drawer" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="@dimen/fab_margin_bottom"
+        app:backgroundTint="@color/colorPrimary"
+        app:fabSize="mini"
+        android:visibility="gone"
+        android:src="@drawable/talk" />
+
+</android.support.design.widget.CoordinatorLayout>

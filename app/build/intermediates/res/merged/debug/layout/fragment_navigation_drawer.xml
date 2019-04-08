@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:background="@color/colorPrimary">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            android:background="@null">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/item_drapeau"
+                android:src="@drawable/infinite"
+                android:scaleType="fitCenter"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/version_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Te Hono"
+                android:layout_toRightOf="@id/item_drapeau"
+                android:layout_centerVertical="true"
+                android:paddingLeft="10dp"
+                android:textSize="23dp"
+                android:textColor="@android:color/white"
+                 />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav_header_container"
+        android:layout_marginTop="15dp" />
+
+
+</RelativeLayout>

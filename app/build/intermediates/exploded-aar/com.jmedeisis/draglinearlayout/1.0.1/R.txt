@@ -1,0 +1,8 @@
+int attr placeholderView 0x7f010001
+int attr scrollSensitiveHeight 0x7f010000
+int dimen downwards_drop_shadow_height 0x7f030000
+int drawable ab_solid_shadow_holo 0x7f020000
+int drawable ab_solid_shadow_holo_flipped 0x7f020001
+int[] styleable DragLinearLayout { 0x7f010000, 0x7f010001 }
+int styleable DragLinearLayout_placeholderView 1
+int styleable DragLinearLayout_scrollSensitiveHeight 0

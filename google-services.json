@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1076895823493",
+    "firebase_url": "https://tehono-mobile.firebaseio.com",
+    "project_id": "tehono-mobile",
+    "storage_bucket": "tehono-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076895823493:android:53c07734e4160a99",
+        "android_client_info": {
+          "package_name": "k.tehono.org.tehono"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076895823493-i4nj4hqocvppi16mgccf28sd1a8i0eeb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYYg_aP1MbzKaYp95AVUS8s_Uw1jNhvrM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

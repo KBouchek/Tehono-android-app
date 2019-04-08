@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1076895823493-i4nj4hqocvppi16mgccf28sd1a8i0eeb.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://tehono-mobile.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1076895823493</string>
+    <string name="google_api_key" translatable="false">AIzaSyDYYg_aP1MbzKaYp95AVUS8s_Uw1jNhvrM</string>
+    <string name="google_app_id" translatable="false">1:1076895823493:android:53c07734e4160a99</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDYYg_aP1MbzKaYp95AVUS8s_Uw1jNhvrM</string>
+    <string name="google_storage_bucket" translatable="false">tehono-mobile.appspot.com</string>
+    <string name="project_id" translatable="false">tehono-mobile</string>
+</resources>
